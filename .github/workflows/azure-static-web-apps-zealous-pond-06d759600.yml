@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     env:
-      SKIP_DEPLOY_ON_MISSING_SECRETS: true
+      skip_deploy_on_missing_secrets: true
     steps:
       - uses: actions/checkout@v2
         with:
